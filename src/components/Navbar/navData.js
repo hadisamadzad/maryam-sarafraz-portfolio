@@ -7,10 +7,10 @@ export const navLinks = [
     label: 'Details',
     pathname: '/#details',
   },
-  {
-    label: 'Articles',
-    pathname: '/articles',
-  },
+  //{
+  //  label: 'Articles',
+  //  pathname: '/articles',
+  //},
   {
     label: 'Contact',
     pathname: '/contact',
@@ -19,18 +19,18 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
-    icon: 'twitter',
+    label: 'Behance',
+    url: 'https://www.behance.net/maryamsarafrazi',
+    icon: 'behance',
   },
   {
     label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
+    url: 'https://www.figma.com/@maryamsarafrazi',
     icon: 'figma',
   },
   {
-    label: 'Github',
-    url: 'https://github.com/HamishMW',
-    icon: 'github',
+    label: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/maryamsarafrazi/',
+    icon: 'linkedin',
   },
 ];
