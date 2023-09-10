@@ -19,14 +19,14 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    label: 'Behance',
-    url: 'https://www.behance.net/maryamsarafrazi',
-    icon: 'behance',
-  },
-  {
     label: 'Figma',
     url: 'https://www.figma.com/@maryamsarafrazi',
     icon: 'figma',
+  },
+  {
+    label: 'Behance',
+    url: 'https://www.behance.net/maryamsarafrazi',
+    icon: 'behance',
   },
   {
     label: 'LinkedIn',
