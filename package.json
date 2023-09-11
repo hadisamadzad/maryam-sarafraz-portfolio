@@ -4,7 +4,7 @@
   "homepage": "https://maryamsarafrazi.com",
   "description": "Portfolio site for Maryam Sarafrazi",
   "repository": "https://github.com/hadisamadzad/maryam-sarafraz-portfolio.git",
-  "author": "Hamish Williams <hello@hamishw.com>",
+  "author": "Hadi Samadzad <h.samadzad@gmail.com>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
     "@storybook/addon-a11y": "^6.5.10",
