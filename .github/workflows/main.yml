@@ -1,0 +1,17 @@
+name: deploy on dev
+run-name: Build & Publish on Prod Server
+on:
+  push:
+    branches:
+      - "master"
+jobs:
+  publish-app:
+    runs-on: [self-hosted]
+    steps:
+      - uses: actions/checkout@v3
+      - run: whoami
+      - run: pwd
+      - run: ls
+      - run: sudo docker-compose build
+      - run: sudo docker-compose -f docker-compose.yml up -d
+      - run: sudo docker image prune --force --filter="dangling=true"
