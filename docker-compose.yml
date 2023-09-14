@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  msportfo:
+    container_name: msportfo
+    image: 'msportfo'
+    restart: always
+
+    ports:
+      - 43000:3000
+    build:
+      context: .
+      dockerfile: Dockerfile
+    #environment:
+    #  - ASPNETCORE_ENVIRONMENT=$ENV
+    #extra_hosts:
+    #  - 'host.docker.internal:host-gateway'
+#networks:
+#  uppharos-back:
+#    name: uppharos-back
+#    external: true
+#  uppharos-infra:
+#    name: uppharos-infra
+#    external: true
