@@ -83,13 +83,13 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="User Interface & Experience Design"
+        description=""
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: '',
           textures: [
             {
               srcSet: [sprTexture, sprTextureLarge],
@@ -104,13 +104,13 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="3D Interior & Exterior Design"
+        description="A set of my decoration and facade design projects"
         buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="https://www.behance.net/gallery/179998469/Interior-Exterior-Design-Portfolio"
         model={{
           type: 'phone',
-          alt: 'App login screen',
+          alt: '',
           textures: [
             {
               srcSet: [gamestackTexture, gamestackTextureLarge],
@@ -128,10 +128,11 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="3D Asset Modelling"
+        description="My portfolio for modelling and rendering of 3D objects, like furniture and buildings"
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="https://www.behance.net/gallery/179950435/Furniture-Portfolio"
+        //buttonLink="/projects/slice"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
