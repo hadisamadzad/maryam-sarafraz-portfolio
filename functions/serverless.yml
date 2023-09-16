@@ -1,4 +1,4 @@
-service: hamish-portfolio
+service: ms-portfolio
 
 provider:
   name: aws
